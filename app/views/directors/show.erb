@@ -1,0 +1,8 @@
+<h1><%= @director.name %>'s Films</h1>
+
+<% @director.films.each do |film| %>
+<%= film.title %></br>
+<% end %>
+</br>
+
+$<%= @director.to_currency %>
